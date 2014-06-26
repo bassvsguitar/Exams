@@ -6,8 +6,36 @@ public class Aufgabe03 {
 
 	public static void main (String []args){
 		
-		int[] x = {3, 4, 2};
-		int[] y = {6, 2, 9};
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Bitte geben Sie 3 Zahlen für das erste Zahlen-Array ein!");
+		int[] x = new int[3];
+		System.out.print("1. Stelle = ");
+		x[0] = input.nextInt();
+		System.out.print("2. Stelle = ");
+		x[1] = input.nextInt();
+		System.out.print("3. Stelle = ");
+		x[2] = input.nextInt();
+		System.out.print("\n");
+		
+		System.out.println("Bitte geben Sie 3 Zahlen für das zweite Zahlen-Array ein!");
+		int[] y = new int[3];
+		System.out.print("1. Stelle = ");
+		x[0] = input.nextInt();
+		System.out.print("2. Stelle = ");
+		x[1] = input.nextInt();
+		System.out.print("3. Stelle = ");
+		x[2] = input.nextInt();
+		System.out.print("\n");
+		
+		//--------------------------------------------
+		// Einfachere Variante ist die 2 Zahlen-Arrays
+		// manuell im Vorfeld belegen. Einfach den 
+		// Arrays Integer-Werte schon zuweisen.
+		// 
+		// int[] x = {3, 4, 2};
+		// int[] y = {6, 2, 9};
+		// -------------------------------------------
 		
 		System.out.println("  " + Arrays.toString(x));
 		System.out.println("+ " + Arrays.toString(y));
@@ -17,6 +45,8 @@ public class Aufgabe03 {
 		
 		System.out.println( "________________________" 
 						  + "\n= " + Arrays.toString(String.valueOf(addiere(x, y)).toCharArray())); 
+		
+		input.close();
 		
 	}
 	public static int addiere(int[] a, int[] b){
