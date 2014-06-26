@@ -21,11 +21,11 @@ public class Aufgabe03 {
 		System.out.println("Bitte geben Sie 3 Zahlen für das zweite Zahlen-Array ein!");
 		int[] y = new int[3];
 		System.out.print("1. Stelle = ");
-		x[0] = input.nextInt();
+		y[0] = input.nextInt();
 		System.out.print("2. Stelle = ");
-		x[1] = input.nextInt();
+		y[1] = input.nextInt();
 		System.out.print("3. Stelle = ");
-		x[2] = input.nextInt();
+		y[2] = input.nextInt();
 		System.out.print("\n");
 		
 		//--------------------------------------------
