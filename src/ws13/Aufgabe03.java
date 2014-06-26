@@ -35,6 +35,7 @@ public class Aufgabe03 {
 		// 
 		// int[] x = {3, 4, 2};
 		// int[] y = {6, 2, 9};
+		//
 		// -------------------------------------------
 		
 		System.out.println("  " + Arrays.toString(x));
