@@ -30,7 +30,7 @@ public class Aufgabe03 {
 		
 		//--------------------------------------------
 		// Einfachere Variante ist die 2 Zahlen-Arrays
-		// manuell im Vorfeld belegen. Einfach den 
+		// manuell im Vorfeld zu belegen. Einfach den 
 		// Arrays Integer-Werte schon zuweisen.
 		// 
 		// int[] x = {3, 4, 2};
