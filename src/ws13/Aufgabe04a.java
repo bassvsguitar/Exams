@@ -1,6 +1,6 @@
 package ws13;
 
-public class Aufgabe04a {
+public class Aufgabe04a {//Aufgabe04a = Getränk
 
 	String name;
 	double menge;
