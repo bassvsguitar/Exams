@@ -1,6 +1,6 @@
 package ws13;
 
-public class Aufgabe04b extends Aufgabe04a{
+public class Aufgabe04b extends Aufgabe04a{//Aufgabe04b = SaftGetränk
 	
 	double fruchtgehalt;
 
