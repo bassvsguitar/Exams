@@ -1,6 +1,6 @@
 package ws13;
 
-public class Aufgabe04c {
+public class Aufgabe04c {//Aufgabe04c = GetränkTest
 	
 
 	public static void main(String[] args){
