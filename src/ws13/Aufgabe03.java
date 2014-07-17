@@ -62,9 +62,8 @@ public class Aufgabe03 {
 			übertrag = (s / 10) * 10;
 			c[i + 1] = s - übertrag;
 			übertrag = übertrag / 10;
-			System.out.println("Übertrag "+ übertrag + " an Stelle " + i);
             c[i] += übertrag;
-            System.out.println(Arrays.toString(c));
+           
             System.out.print("\n");
             
 		}

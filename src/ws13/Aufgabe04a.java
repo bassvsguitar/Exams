@@ -10,7 +10,6 @@ public class Aufgabe04a {//Aufgabe04a = Getränk
 
 	public Aufgabe04a(String name, double menge, double preis){
 		
-		this.name = name;
 
 		if ((menge > 0.0) && (menge <= 1.0)){
 			

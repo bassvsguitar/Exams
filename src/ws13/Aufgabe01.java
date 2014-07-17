@@ -20,13 +20,17 @@ public class Aufgabe01 {
 	}
 	public static boolean istZweistellig(int a){
 		
-		if(Math.abs(a) < 10 && Math.abs(a) > 99){
-			
-			return false;
+		if(a <= 10 && a >= 99){
+	
+			return true;
 		}
-		else{
+		else if(a <= -10 && a >= -99){
 		
 			return true;
+		}
+		else{
+			
+			return false;
 		}
 
 	}
